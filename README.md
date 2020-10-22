@@ -6,9 +6,6 @@
     window.history.back();
     window.close(); 
 
-    //or if you are not interested in closing the window, do something else here
-    //e.g. 
-    theBrowserCantGoBack();
-
+    throw error('can`t do any thing');
   }
   ```
