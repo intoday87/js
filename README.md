@@ -11,9 +11,8 @@
   ```
 
 # es2020 Promise.allSettled
-
-`Promise.all`과  `Promise.allSettled`를 번갈아가면서 테스트 해본다
-`all`은 한 개라도 reject되면 전체 reject처리, `allSettled`는 어느 하나라도 reject되도 모든 promise를 기다린 후 전체 reject 처리하지 않고 결과를 돌려준다
+- [doc link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+- `Promise.all`과  `Promise.allSettled`를 번갈아가면서 테스트 해본다. `all`은 한 개라도 reject되면 전체 reject처리, `allSettled`는 어느 하나라도 reject되도 모든 promise를 기다린 후 전체 reject 처리하지 않고 결과를 돌려준다
 
 ```js
 const result = await Promise.allSettled([
