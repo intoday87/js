@@ -9,3 +9,31 @@
     throw error('can`t do any thing');
   }
   ```
+
+# es2020 Promise.allSettled
+
+`Promise.all`과  `Promise.allSettled`를 번갈아가면서 테스트 해본다
+`all`은 한 개라도 reject되면 전체 reject처리, `allSettled`는 어느 하나라도 reject되도 모든 promise를 기다린 후 전체 reject 처리하지 않고 결과를 돌려준다
+
+```js
+const result = await Promise.allSettled([
+  new Promise((resolve) => {
+    setTimeout(() => {
+        resolve('promise 1')
+        console.log('resolved promise 1')
+    }, 1000)
+  }),
+  new Promise((resolve) => {
+    setTimeout(() => { 
+        resolve('promise 2')}, 2000)
+        console.log('resolved promise 2')
+  }),
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+        reject(new Error('promise 3 got error'))
+        console.log('rejected promise 3')
+    }, 700)
+  })
+  ])
+console.log('result', result)
+```
