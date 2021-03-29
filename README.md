@@ -38,3 +38,4 @@ console.log('result', result)
 ```
 
 # [ecma script proposals](https://github.com/tc39/proposals)
+- todo 각 스테이지가 가리키는 
