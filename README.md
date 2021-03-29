@@ -36,3 +36,5 @@ const result = await Promise.allSettled([
   ])
 console.log('result', result)
 ```
+
+# [ecma script proposals](https://github.com/tc39/proposals)
