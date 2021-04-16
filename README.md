@@ -39,3 +39,14 @@ console.log('result', result)
 
 # [ecma script proposals](https://github.com/tc39/proposals)
 - [각 스테이지가 가리키는 의미](https://tc39.es/process-document/)
+
+# research
+<ul>
+  <li><a target="_blank" href="https://tsh.io/State-of-Frontend-2020-by-TSH.pdf">State of Frontend 2020</a></li>
+  <li><a target="_blank" href="https://2020.stateofjs.com/ko-KR/">2020 State Of JS</a></li>
+  <li><a target="_blank" href="https://2020.stateofcss.com/ko-KR/">2020 State Of CSS</a></li>
+  <li><a target="_blank" href="https://risingstars.js.org/2020/en#section-framework">2020 JavaScript Rising Stars</a></li>
+  <li><a target="_blank" href="https://insights.stackoverflow.com/survey/2020">stackoverflow Devloper Survey 2020</a></li>
+  <li><a target="_blank" href="https://octoverse.github.com/">GitHub The State of the Octoverse</a></li>
+  <li><a target="_blank" href="https://programmers.co.kr/pages/2021-dev-survey">Programmers Dev·Survey 2021</a></li>
+</ul>
