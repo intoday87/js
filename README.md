@@ -50,3 +50,9 @@ console.log('result', result)
   <li><a target="_blank" href="https://octoverse.github.com/">GitHub The State of the Octoverse</a></li>
   <li><a target="_blank" href="https://programmers.co.kr/pages/2021-dev-survey">Programmers Dev·Survey 2021</a></li>
 </ul>
+
+# Date
+## ISO 8601
+### Zulu Time Zone - Z
+- `2021-04-16T03:40:02.876Z`에서 `Z`는 UTC 시간과 일치하는 시간을 나타낸다 - [wiki](https://ko.wikipedia.org/wiki/ISO_8601#UTC)
+- `Z` 없이 `+09:00`으로 타임존을 나타낸다 - [wiki](https://ko.wikipedia.org/wiki/ISO_8601#%ED%91%9C%EC%A4%80_%EC%8B%9C%EA%B0%84%EB%8C%80_%EC%A7%80%EC%A0%95%EC%9E%90(time_zone_designator))
