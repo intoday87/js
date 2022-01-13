@@ -64,3 +64,6 @@ console.log('result', result)
 - [virtual dom 직접 구성해보기](https://junilhwang.github.io/TIL/Javascript/Design/Vanilla-JS-Virtual-DOM/#_1-%E1%84%87%E1%85%B3%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%8C%E1%85%A5-%E1%84%85%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC-%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC)
 - [2016년에 자바스크립트를 배우는 기분](http://www.looah.com/article/view/2054)
   - 현재 히스토리를 jquery 사용이 퇴보하는 시점부터 재미있게 대화 형식으로 잘 정리한 
+
+# 취약점 분석 - snyk.io에서 취약점 DB 조회
+- https://security.snyk.io/page/1?q=next&type=npm
